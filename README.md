@@ -58,10 +58,6 @@ git clone https://github.com/yourusername/ai-voice-sales-agent.git
 cd ai-voice-sales-agent/backend
 ```
 
-### Install dependencies
-``` bash
-pip install -r requirements.txt
-```
 ### Create .env file
 ``` bash
 echo "TWILIO_ACCOUNT_SID=your_sid
@@ -85,6 +81,17 @@ npm start
 cd Backend
 npm run server
  ```
+Run the following CloudFlare command
+``` bash
+cloudflared tunnel --url http://localhost:8000
+```
+Paste the generated tunnel URL into the python script's base URL
+
+Run the following uvicorn command in the ai_agent directory
+``` bash
+uvicorn main:app --reload
+```
+Make sure the phone numbers of the customers are registered in your Twilio Acount
 
 ## System Architecture (Flowchart View)
 
