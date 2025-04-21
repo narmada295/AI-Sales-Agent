@@ -91,7 +91,7 @@ Run the following uvicorn command in the ai_agent directory
 ``` bash
 uvicorn main:app --reload
 ```
-Make sure the phone numbers of the customers are registered in your Twilio Acount
+Make sure the phone numbers of the customers are registered in your Twilio Account
 
 ## System Architecture (Flowchart View)
 
