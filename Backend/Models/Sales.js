@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 const salesSchema = new mongoose.Schema({
   ProductId: {
-    type: Number, // or String if your IDs are alphanumeric
+    type: Number, 
     required: true
   },
   PHONENO: {
