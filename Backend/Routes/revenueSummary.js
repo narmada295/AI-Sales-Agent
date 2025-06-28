@@ -16,7 +16,7 @@ router.get("/api/revenue-summary", async (req, res) => {
       { $limit: 3 },
       {
         $lookup: {
-          from: "products", // collection name in MongoDB (must be lowercase and plural)
+          from: "products", 
           localField: "_id",       // _id from sales aggregation (ProductId)
           foreignField: "ProductId", // match against this field in products
           as: "productDetails"
