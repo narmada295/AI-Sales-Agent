@@ -1,4 +1,4 @@
-#  AI Voice Sales Agent
+#  AI Sales Agent
 
 > A full-stack platform that automates telephonic product promotions through real-time human-like conversations.
 
@@ -6,7 +6,7 @@
 
 ## Overview
 
-The AI Voice Sales Agent revolutionizes traditional cold calling with AI-powered automation. Through our React dashboard, administrators can manage customers and products, and access real-time analytics—all while our AI handles the conversations.
+The AI Sales Agent revolutionizes traditional cold calling with AI-powered automation. Through our React dashboard, administrators can manage customers and products, and access real-time analytics—all while our AI handles the conversations.
 
 *Key Components:*
 - *Voice Calls*: Twilio enables natural phone conversations with customers
