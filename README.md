@@ -148,9 +148,7 @@ flowchart TD
 - API rate limits may affect performance during high-volume campaigns
 - UI responsiveness issues on certain older mobile devices
 
-## Roadmap
-
-### Future Development
+## Future Development
 - WhatsApp & SMS integration for multi-channel communication
 - Multilingual support
 - Enhanced call analytics with AI-powered insights
